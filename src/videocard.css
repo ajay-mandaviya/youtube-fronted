@@ -1,0 +1,24 @@
+.card{
+    width: 270px;
+    margin-bottom:40px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.img{
+    width: 250px;
+    height: 140px   ;
+}
+.info{
+    display: flex;
+    margin-top:15px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.avatar{
+    height:30px !important;
+    width: 30px !important;
+}
+.text{
+    margin-left: 10px;
+}

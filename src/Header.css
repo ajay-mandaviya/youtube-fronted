@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:white;
+
+}
+img{
+    height: 25px;
+    margin-left: 25px;
+}
+
+.serchbtn{
+        width: 45px !important;
+        height: 25px;
+        background-color: #fafafa;
+        color: grey;
+        border-left: 1px solid lightgrey
+
+}
+.middle{
+    display: flex;
+    align-items:center;
+    width:30%;
+    border: 1px solid lightgrey
+}
+.middle > input{
+    flex: 1;
+    border:none;
+    height: 23px;
+    border-bottom: 1px solid lightgrey;
+}
+.middle > input .active{
+    outline-style: none;
+}
+.right{
+    display:flex;
+    align-items:center;
+}
+.icons{
+    display: flex;
+    margin: 0 8px;  
+}

@@ -1,0 +1,28 @@
+.sidebarmenu{
+    display:flex;
+    align-items:center;
+    margin: 10px 10px; 
+    cursor: pointer;
+}
+.icon{
+    color:#606060;
+    font-size:large !important;
+}
+.title{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    flex: 1;
+}
+.sidebarmenu:hover{
+    background-color: lightgrey;
+}
+.sidebarmenu:hover .icon{
+    color: red;
+}
+.sidebarmenu:hover .title{
+    font-weight: bold;
+}
+
+
+
